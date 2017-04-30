@@ -1,0 +1,47 @@
+.page-title {
+  font-weight: 300;
+}
+
+#logo-img {
+  height: 100%;
+}
+
+#logo-text {
+  font-weight: 300;
+  margin: 0;
+}
+
+#logo-container {
+  height: 120px;
+  line-height: 12px;
+}
+
+#nav-mobile li.search {
+  top: 205px;
+}
+
+li.no-padding>ul>li.active, #nav-mobile>li.logo {
+  background-color: rgba(0, 0, 0, 0.00) !important;
+}
+
+ul.side-nav.fixed li.logo {
+  margin-bottom: 110px;
+}
+
+.padme img {
+  margin-top: 5em;
+}
+
+.introduction-images img {
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: calc(100vh - 158px);
+}
+
+.modal-content>.header {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}

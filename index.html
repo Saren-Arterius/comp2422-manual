@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HYPERSPHERE interactive manual</title>
+    <link rel="stylesheet" href="ghpages-materialize.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="txlive.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav class="top-nav">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a class="page-title"></a>
+          </div>
+        </div>
+      </nav>
+      <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a></div>
+      <ul id="nav-mobile" class="side-nav fixed" style="overflow: auto;">
+        <li class="logo">
+          <a id="logo-container" href="#introduction" class="brand-logo">
+            <img id="logo-img" src="images/hypersphere.png" />
+            <h4 id="logo-text">HYPERSPHERE</h4>
+          </a>
+        </li>
+        <form>
+          <li class="search">
+            <div class="search-wrapper card">
+              <input id="search" data-cip-id="search"><i class="material-icons">search</i>
+              <div class="search-results"></div>
+            </div>
+          </li>
+        </form>
+        <li class="bold"><a href="#introduction" class="waves-effect waves-teal">Introduction</a></li>
+        <li class="bold"><a href="#features" class="waves-effect waves-teal">Features</a></li>
+        <li class="bold"><a href="#tech-specs" class="waves-effect waves-teal">Tech Specs</a></li>
+        <li class="bold"><a href="#text-manual" class="waves-effect waves-teal">Text Manual</a></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li class="bold">
+              <a class="collapsible-header waves-effect waves-teal active">3D Demo</a>
+              <div class="collapsible-body active" style="display: block;">
+                <ul>
+                  <li><a href="#model-device-default" class="waves-effect waves-teal">Device - Default</a></li>
+                  <li><a href="#model-device-on" class="waves-effect waves-teal">Device - ON</a></li>
+                  <li><a href="#model-device-off" class="waves-effect waves-teal">Device - OFF</a></li>
+                  <li><a href="#model-animation-charging" class="waves-effect waves-teal">Animation - Charging</a></li>
+                  <li><a href="#model-animation-on" class="waves-effect waves-teal">Animation - ON</a></li>
+                  <li><a href="#model-animation-vibration" class="waves-effect waves-teal">Animation - Vibration</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li class="bold">
+              <a class="collapsible-header waves-effect waves-teal active">Support</a>
+              <div class="collapsible-body active" style="display: block;">
+                <ul>
+                  <li><a href="#faq" class="waves-effect waves-teal">FAQ</a></li>
+                  <li><a href="#user-forum" class="waves-effect waves-teal">User Forum</a></li>
+                  <li><a href="#contact-us" class="waves-effect waves-teal">Contact Us</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="bold"><a href="https://github.com/Saren-Arterius/comp2422-manual" class="waves-effect waves-teal" target="_blank">Source Code Download</a></li>
+      </ul>
+    </header>
+    <main></main>
+
+    <div id="tx-live-lang-container" class="txlive-langselector txlive-langselector-bottomright">
+      <ul id="tx-live-lang-picker" class="txlive-langselector-list notranslate">
+        <li data-value="en">English</li>
+        <li data-value="ar">العربية</li>
+        <li data-value="zh">中文</li>
+        <li data-value="cs">Čeština</li>
+        <li data-value="nl">Nederlands</li>
+        <li data-value="fr">Français</li>
+        <li data-value="de">Deutsch</li>
+        <li data-value="ko">한국어</li>
+        <li data-value="pt">Português</li>
+        <li data-value="ru">Русский</li>
+        <li data-value="es">Español</li>
+        <li data-value="sv">Svenska</li>
+        <li data-value="th">ภาษาไทย</li>
+        <li data-value="tr">Türkçe</li>
+      </ul>
+      <div class="txlive-langselector-toggle notranslate" id="tx-live-lang-toggle"><span class="txlive-langselector-current" id="tx-live-lang-current">English</span><span class="txlive-langselector-marker"></span></div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="modal-mobile" class="modal modal-fixed-footer introduction-images">
+      <div class="modal-content">
+        <div class="row">
+          <div class="col s12 m9 l6">
+            <h4>User guide</h4>
+            <h4 class="header">Basic controls</h4>
+            <img src="images/3d-help-mobile-1.png" />
+            <img src="images/3d-help-mobile-2.png" />
+            <img src="images/3d-help-mobile-3.png" />
+            <h4 class="header">Showing annotations</h4>
+            <img src="images/3d-help-mobile-4.png" />
+            <h4 class="header">Settings</h4>
+            <img src="images/3d-help-settings.png" />
+            <h4 class="header">If 3D viewer does not work</h4>
+            <p class="caption">- Refresh this page<br/>- Clear browser's cache<br/>- Update browser or OS to latest version<br/>- Your device or browser might be unsupported</li>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+    <div id="modal-pc" class="modal modal-fixed-footer introduction-images">
+      <div class="modal-content">
+        <div class="row">
+          <div class="col s12 m9 l6">
+            <h4>User guide</h4>
+            <h4 class="header">Basic controls</h4>
+            <img src="images/3d-help-pc-1.png" />
+            <img src="images/3d-help-pc-2.png" />
+            <img src="images/3d-help-pc-3.png" />
+            <h4 class="header">Showing annotations</h4>
+            <img src="images/3d-help-pc-4.png" />
+            <h4 class="header">Settings</h4>
+            <img src="images/3d-help-settings.png" />
+            <h4 class="header">If 3D viewer does not work</h4>
+            <p class="caption">- Refresh this page<br/>- Clear browser's cache<br/>- Update browser or OS to latest version<br/>- Your PC or browser might be unsupported</li>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>

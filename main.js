@@ -74,7 +74,7 @@ var isMobile = function () {
       });
     });
     if (window.location.hash && window.location.hash !== '#introduction') {
-      $('a[href="' + window.location.hash + '"]').click();
+      $('a[href="' + window.location.hash.replace('3d-demo', 'model-device-default') + '"]').click();
     } else {
       $('#logo-container').click();
     }
